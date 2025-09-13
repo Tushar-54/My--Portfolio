@@ -187,11 +187,11 @@ nav ul li a:hover::after{
 .layer a {
     display: inline-block;
     margin-top: 20px;
-    color: #ff004f;
+    color: #ffffff;   /* changed to white for visibility */
     text-decoration: none;
-    font-size: 24px; /* icon size */
+    font-size: 28px;  /* thoda bada bhi kar diya */
     line-height: normal;
-    background: none; /* circle background removed */
+    background: none;
     width: auto;
     height: auto;
     border-radius: 0;
@@ -200,9 +200,10 @@ nav ul li a:hover::after{
 }
 
 .layer a:hover {
-    color: #fff000; /* hover color */
-    transform: scale(1.2); /* hover enlarge effect */
+    color: #ffcc00;  /* hover color bright yellow */
+    transform: scale(1.2);
 }
+
 
 .projects:hover .layer{
     height: 100%;
